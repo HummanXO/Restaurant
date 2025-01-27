@@ -11,9 +11,12 @@
 		A80303082D43CC5A001E1EA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80303072D43CC5A001E1EA8 /* SceneDelegate.swift */; };
 		A803030F2D43CC5C001E1EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A803030E2D43CC5C001E1EA8 /* Assets.xcassets */; };
 		A80303122D43CC5C001E1EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80303102D43CC5C001E1EA8 /* LaunchScreen.storyboard */; };
+		A853A3EE2D44E35D0005C4A7 /* ChoosePizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853A3ED2D44E35D0005C4A7 /* ChoosePizzaViewController.swift */; };
 		A85854312D43CCD300A1BFD2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85854302D43CCD300A1BFD2 /* File.swift */; };
 		A85854342D43CD0800A1BFD2 /* AutarizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85854332D43CD0800A1BFD2 /* AutarizationViewController.swift */; };
 		A85854362D43DDFC00A1BFD2 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85854352D43DDFC00A1BFD2 /* FoodViewController.swift */; };
+		A8F0ED132D474479007606DA /* IngridientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0ED122D474479007606DA /* IngridientsViewController.swift */; };
+		A8F0ED152D4760BE007606DA /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0ED142D4760BE007606DA /* BillViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +26,12 @@
 		A803030E2D43CC5C001E1EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A80303112D43CC5C001E1EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A80303132D43CC5C001E1EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A853A3ED2D44E35D0005C4A7 /* ChoosePizzaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePizzaViewController.swift; sourceTree = "<group>"; };
 		A85854302D43CCD300A1BFD2 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		A85854332D43CD0800A1BFD2 /* AutarizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutarizationViewController.swift; sourceTree = "<group>"; };
 		A85854352D43DDFC00A1BFD2 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		A8F0ED122D474479007606DA /* IngridientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngridientsViewController.swift; sourceTree = "<group>"; };
+		A8F0ED142D4760BE007606DA /* BillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 			children = (
 				A85854332D43CD0800A1BFD2 /* AutarizationViewController.swift */,
 				A85854352D43DDFC00A1BFD2 /* FoodViewController.swift */,
+				A853A3ED2D44E35D0005C4A7 /* ChoosePizzaViewController.swift */,
+				A8F0ED122D474479007606DA /* IngridientsViewController.swift */,
+				A8F0ED142D4760BE007606DA /* BillViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,8 +167,11 @@
 			files = (
 				A80303062D43CC5A001E1EA8 /* AppDelegate.swift in Sources */,
 				A85854362D43DDFC00A1BFD2 /* FoodViewController.swift in Sources */,
+				A8F0ED132D474479007606DA /* IngridientsViewController.swift in Sources */,
 				A85854312D43CCD300A1BFD2 /* File.swift in Sources */,
 				A85854342D43CD0800A1BFD2 /* AutarizationViewController.swift in Sources */,
+				A8F0ED152D4760BE007606DA /* BillViewController.swift in Sources */,
+				A853A3EE2D44E35D0005C4A7 /* ChoosePizzaViewController.swift in Sources */,
 				A80303082D43CC5A001E1EA8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
